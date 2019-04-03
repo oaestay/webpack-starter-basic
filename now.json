@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "webpack-starter-basic",
+  "alias": ["webpack-starter-basic.oscarestay.com", "www.webpack-starter-basic.oscarestay.com"],
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
+  "routes": [
+    { "src": "/", "dest": "/index.html" }
+  ]
+}
